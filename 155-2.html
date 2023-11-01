@@ -1,0 +1,30 @@
+﻿<html>
+    <head>
+    
+       ﻿<html>
+<head>
+
+
+</head>
+<body>
+    ﻿<script>
+
+        function checkNotEmpty(field) {
+            let a  = document.getElementById('user');
+            if (a.value.lenght == 0) {
+                //
+                return false;
+            }
+            return true;
+    
+        }
+    </script>
+    <form>
+        이름:    <input type='text' id='user' />
+        <input type='button'
+            onclick="checkNotEmpty(document.getElementById('user'))"
+            value='확인' />
+    </form>
+</body>
+</html>
+ 
